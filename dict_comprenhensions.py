@@ -1,8 +1,11 @@
-# is num divisible by x <-> is num multiple of x
-def is_x_divisible(num, x):
-    return (num % x) == 0 
-
 def run():
+    #----- Dictionary Comprenhensions ----- 
+    #Usefull to create a new dict with the items of an iterable
+    #Basic structure
+    #   dict = [dict_key(i) : dict_value(i) for i in iterable if condition(i)]
+    #Notice that dict_key, dict_value and condition are functions of i
+    #Key/Value item is added only if actual i satisfied condition (returns True)
+
     challenge()
 
 def challenge():
@@ -25,6 +28,9 @@ def cubeNumbers():
     print(cube_numbers)
     
 
+# is num divisible by x <-> is num multiple of x
+def is_x_divisible(num, x):
+    return (num % x) == 0 
 
 
 if __name__ == '__main__':

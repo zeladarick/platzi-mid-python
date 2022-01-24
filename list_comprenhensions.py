@@ -1,4 +1,10 @@
 def run():
+    #----- Lists Comprenhensions ----- 
+    #Usefull to create a new list with the items of other list 
+    #Basic structure
+    #   new_list = [new_list_item(i) for i in iterable if condition(i)]
+    #Notice that new_list_tem and condition are functions of i
+    #new_list_item item is added only if actual i satisfied condition (returns True)
     challenge()
 
 # is num divisible by x <-> is num multiple of x
